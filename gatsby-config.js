@@ -19,6 +19,12 @@ module.exports = {
       },
     },
     'gatsby-plugin-sass',
-    'gatsby-plugin-offline'
+    'gatsby-plugin-offline',
+    {
+      resolve: 'gatsby-plugin-mailchimp',
+      options: {
+        endpoint: 'https://mydata.us20.list-manage.com/subscribe/post?u=7cef1bd5acceb8fd0c70f0739&amp;id=ef77ad1f7b', // add your MC list endpoint here; see instructions below
+      },
+    }
   ],
 }

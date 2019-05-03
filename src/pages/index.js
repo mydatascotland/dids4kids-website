@@ -3,14 +3,15 @@ import Helmet from "react-helmet";
 
 import Layout from '../components/layout';
 
-import pic01 from '../assets/images/pic01.jpg'
+import didsDiagram from '../assets/images/dids4kidsdiagram.png'
 import pic02 from '../assets/images/pic02.jpg'
 import pic03 from '../assets/images/pic03.jpg'
 import pic04 from '../assets/images/pic04.jpg'
+import SubscribeToMailingList from '../components/SubscribeToMailingList'
 
 class Homepage extends React.Component {
     render() {
-        const siteTitle = "Gatsby Starter - Photon";
+        const siteTitle = "DIDs 4 Kids";
 
         return (
             <Layout>
@@ -20,13 +21,13 @@ class Homepage extends React.Component {
                     <div className="grid-wrapper">
                         <div className="col-6">
                             <header className="major">
-                                <h2>Lorem ipsum dolor adipiscing<br />
-                                amet dolor consequat</h2>
+                                <h2>Objectives</h2>
                             </header>
-                            <p>Adipiscing a commodo ante nunc accumsan et interdum mi ante adipiscing. A nunc lobortis non nisl amet vis sed volutpat aclacus nascetur ac non. Lorem curae et ante amet sapien sed tempus adipiscing id accumsan.</p>
+                          <p>This project seeks to research, validate and shape how large-scale deployment of decentralised identity might best emerge by tackling a green field use case around new born children.</p>
+                            {/*<p>Adipiscing a commodo ante nunc accumsan et interdum mi ante adipiscing. A nunc lobortis non nisl amet vis sed volutpat aclacus nascetur ac non. Lorem curae et ante amet sapien sed tempus adipiscing id accumsan.</p>*/}
                         </div>
-                        <div className="col-6">
-                            <span className="image fit"><img src={pic01} alt="" /></span>
+                        <div className="col-6 flex-center">
+                            <span className="image fit"><img src={didsDiagram} alt="" /></span>
                         </div>
                     </div>
                 </section>
@@ -45,12 +46,10 @@ class Homepage extends React.Component {
                         </div>
                         <div className="col-6">
                             <header className="major">
-                                <h2>Lorem ipsum dolor adipiscing<br />
-                                amet dolor consequat</h2>
+                                <h2>Some Title</h2>
                             </header>
-                            <p>Adipiscing a commodo ante nunc accumsan interdum mi ante adipiscing. A nunc lobortis non nisl amet vis volutpat aclacus nascetur ac non. Lorem curae eu ante amet sapien in tempus ac. Adipiscing id accumsan adipiscing ipsum.</p>
-                            <p>Blandit faucibus proin. Ac aliquam integer adipiscing enim non praesent vis commodo nunc phasellus cubilia ac risus accumsan. Accumsan blandit. Lobortis phasellus non lobortis dit varius mi varius accumsan lobortis. Blandit ante aliquam lacinia lorem lobortis semper morbi col faucibus vitae integer placerat accumsan orci eu mi odio tempus adipiscing adipiscing adipiscing curae consequat feugiat etiam dolore.</p>
-                            <p>Adipiscing a commodo ante nunc accumsan interdum mi ante adipiscing. A nunc lobortis non nisl amet vis volutpat aclacus nascetur ac non. Lorem curae eu ante amet sapien in tempus ac. Adipiscing id accumsan adipiscing ipsum.</p>
+                            <p>Decentralised identity and the personal data management capabilities it enables are close to being market-ready. But specific challenges to mass adoption and use remain. This project seeks to research, validate and shape how large-scale deployment of decentralised identity might best emerge by tackling a green field use case around new born children. Pre and immediately post birth children have no digital identities, and thus are a perfect research set for proving new concepts. This project seeks to research, validate and prove that a new human being, with support from their parents and the community around them, can build life-long data assets that are secure, private and able to be shared with appropriate parties under full, audited control.  </p>
+                            <p>With the capabilities, we believe to be now be viable, the individual will always be the optimal point of origination and integration for data about themselves. This has profound implications for the child themselves, for their parents and support community, and also for the wide range of entities that need/ wish to gather data on or interact digitally with the child over time (their lifetime). </p>
                         </div>
                     </div>
                 </section>
@@ -59,14 +58,14 @@ class Homepage extends React.Component {
                     <div className="grid-wrapper">
                         <div className="col-12">
                             <header className="major">
-                                <h2>Adipiscing amet consequat</h2>
+                                <h2>Partners</h2>
                             </header>
-                            <p>Ante nunc accumsan et aclacus nascetur ac ante amet sapien sed.</p>
+                            <p>This project is a collaboration between a number of organisations bringing a wealth of experience</p>
                         </div>
 
                         <div className="col-4">
                             <span className="image fit"><img src={pic02} alt="" /></span>
-                            <h3>Magna feugiat lorem</h3>
+                            <h3>MyData Scotland</h3>
                             <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
                             <ul className="actions">
                                 <li><a href="#" className="button">More</a></li>
@@ -74,7 +73,7 @@ class Homepage extends React.Component {
                         </div>
                         <div className="col-4">
                             <span className="image fit"><img src={pic03} alt="" /></span>
-                            <h3>Magna feugiat lorem</h3>
+                            <h3>Edinburgh Napier University</h3>
                             <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
                             <ul className="actions">
                                 <li><a href="#" className="button">More</a></li>
@@ -82,12 +81,36 @@ class Homepage extends React.Component {
                         </div>
                         <div className="col-4">
                             <span className="image fit"><img src={pic04} alt="" /></span>
-                            <h3>Magna feugiat lorem</h3>
+                            <h3>Sitekit</h3>
                             <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
                             <ul className="actions">
                                 <li><a href="#" className="button">More</a></li>
                             </ul>
                         </div>
+                      <div className="col-4">
+                        <span className="image fit"><img src={pic04} alt="" /></span>
+                        <h3>MyData Global</h3>
+                        <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+                        <ul className="actions">
+                          <li><a href="#" className="button">More</a></li>
+                        </ul>
+                      </div>
+                      <div className="col-4">
+                        <span className="image fit"><img src={pic04} alt="" /></span>
+                        <h3>Truu</h3>
+                        <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+                        <ul className="actions">
+                          <li><a href="#" className="button">More</a></li>
+                        </ul>
+                      </div>
+                      <div className="col-4">
+                        <span className="image fit"><img src={pic04} alt="" /></span>
+                        <h3>JLinc</h3>
+                        <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+                        <ul className="actions">
+                          <li><a href="#" className="button">More</a></li>
+                        </ul>
+                      </div>
 
                     </div>
                 </section>
@@ -95,13 +118,9 @@ class Homepage extends React.Component {
                 <section id="four" className="main style2 special">
                     <div className="container">
                         <header className="major">
-                            <h2>Ipsum feugiat consequat?</h2>
+                            <h2>Join our mailing list</h2>
                         </header>
-                        <p>Sed lacus nascetur ac ante amet sapien.</p>
-                        <ul className="actions uniform">
-                            <li><a href="#" className="button special">Sign Up</a></li>
-                            <li><a href="#" className="button">Learn More</a></li>
-                        </ul>
+                        <SubscribeToMailingList/>
                     </div>
                 </section>
             </Layout>
