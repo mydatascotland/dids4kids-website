@@ -60,7 +60,7 @@ class Homepage extends React.Component {
                             <header className="major">
                                 <h2>Partners</h2>
                             </header>
-                            <p>This project is a collaboration between a number of organisations bringing a wealth of experience</p>
+                            <p>The project is being led by the MyData Scotland Hub, in association with MyData Global, Edinburgh Napier University, SiteKit, JLINC Labs and Truu.id. The team of individuals involved are experienced information management professionals who variously have established careers in customer management, digital identity, academia and medicine. However, the critical capability that we believe is essential to delivering a successful viability test in this area is to look from the perspective of the individual child and their parents, then overlay that with knowledge and insights from our professional lives. </p>
                         </div>
 
                         <div className="col-4">
@@ -74,7 +74,7 @@ class Homepage extends React.Component {
                         <div className="col-4">
                             <span className="image fit"><img src={pic03} alt="" /></span>
                             <h3>Edinburgh Napier University</h3>
-                            <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+                            <p>Identity and Cryptography researchers from the blockchain and identity lab at Napier.</p>
                             <ul className="actions">
                                 <li><a href="#" className="button">More</a></li>
                             </ul>
@@ -100,15 +100,17 @@ class Homepage extends React.Component {
                         <h3>Truu</h3>
                         <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
                         <ul className="actions">
-                          <li><a href="#" className="button">More</a></li>
+                          <li><a target='_blank' href="https://truu.id/" className="button">More</a></li>
                         </ul>
                       </div>
                       <div className="col-4">
                         <span className="image fit"><img src={pic04} alt="" /></span>
-                        <h3>JLinc</h3>
-                        <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+                        <h3>JLINC</h3>
+                        <p>JLINC enables people and businesses to sign automated data contracts,
+in seconds. This creates “data provenance,” where all parties can prove
+the chain of custody and terms for the data they share.</p>
                         <ul className="actions">
-                          <li><a href="#" className="button">More</a></li>
+                          <li><a target="_blank" href="https://www.jlinc.com/" className="button">More</a></li>
                         </ul>
                       </div>
 
