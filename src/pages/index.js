@@ -46,7 +46,7 @@ class Homepage extends React.Component {
                         </div>
                         <div className="col-6">
                             <header className="major">
-                                <h2>Some Title</h2>
+                                <h2>Bigger Picture</h2>
                             </header>
                             <p>Decentralised identity and the personal data management capabilities it enables are close to being market-ready. But specific challenges to mass adoption and use remain. This project seeks to research, validate and shape how large-scale deployment of decentralised identity might best emerge by tackling a green field use case around new born children. Pre and immediately post birth children have no digital identities, and thus are a perfect research set for proving new concepts. This project seeks to research, validate and prove that a new human being, with support from their parents and the community around them, can build life-long data assets that are secure, private and able to be shared with appropriate parties under full, audited control.  </p>
                             <p>With the capabilities, we believe to be now be viable, the individual will always be the optimal point of origination and integration for data about themselves. This has profound implications for the child themselves, for their parents and support community, and also for the wide range of entities that need/ wish to gather data on or interact digitally with the child over time (their lifetime). </p>
