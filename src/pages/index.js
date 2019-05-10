@@ -23,7 +23,7 @@ class Homepage extends React.Component {
                             <header className="major">
                                 <h2>Objectives</h2>
                             </header>
-                          <p>This project seeks to research, validate and shape how large-scale deployment of decentralised identity might best emerge by tackling a green field use case around new born children.</p>
+                          <p className="text-justify">This project seeks to research, validate and shape how large-scale deployment of decentralised identity might best emerge by tackling a green field use case around new born children.</p>
                             {/*<p>Adipiscing a commodo ante nunc accumsan et interdum mi ante adipiscing. A nunc lobortis non nisl amet vis sed volutpat aclacus nascetur ac non. Lorem curae et ante amet sapien sed tempus adipiscing id accumsan.</p>*/}
                         </div>
                         <div className="col-6 flex-center">
@@ -36,12 +36,12 @@ class Homepage extends React.Component {
                     <div className="grid-wrapper">
                         <div className="col-6">
                             <ul className="major-icons">
-                                <li><span className="icon style1 major fa-code"></span></li>
-                                <li><span className="icon style2 major fa-bolt"></span></li>
-                                <li><span className="icon style3 major fa-camera-retro"></span></li>
-                                <li><span className="icon style4 major fa-cog"></span></li>
+                                <li><span className="icon style1 major fa-female"></span></li>
+                                <li><span className="icon style2 major fa-male"></span></li>
+                                <li><span className="icon style3 major fa-child"></span></li>
+                                <li><span className="icon style4 major fa-database"></span></li>
                                 <li><span className="icon style5 major fa-desktop"></span></li>
-                                <li><span className="icon style6 major fa-calendar"></span></li>
+                                <li><span className="icon style6 major fa-id-card"></span></li>
                             </ul>
                         </div>
                         <div className="col-6">
@@ -60,13 +60,20 @@ class Homepage extends React.Component {
                             <header className="major">
                                 <h2>Partners</h2>
                             </header>
-                            <p>The project is being led by the MyData Scotland Hub, in association with MyData Global, Edinburgh Napier University, SiteKit, JLINC Labs and Truu.id. The team of individuals involved are experienced information management professionals who variously have established careers in customer management, digital identity, academia and medicine. However, the critical capability that we believe is essential to delivering a successful viability test in this area is to look from the perspective of the individual child and their parents, then overlay that with knowledge and insights from our professional lives. </p>
+                            <p className="text-justify">The project is being led by the MyData Scotland Hub, in association with MyData Global, Edinburgh Napier University, SiteKit, JLINC Labs and Truu.id. The team of individuals involved are experienced information management professionals who variously have established careers in customer management, digital identity, academia and medicine. However, the critical capability that we believe is essential to delivering a successful viability test in this area is to look from the perspective of the individual child and their parents, then overlay that with knowledge and insights from our professional lives. </p>
                         </div>
-
+                      <div className="col-4">
+                        <span className="image fit"><img src={pic04} alt="" /></span>
+                        <h3>Truu</h3>
+                        <p className="text-justify">Building trusted digital identity for doctors modernising the way medical services verify staff identities, qualifications and certifications.</p>
+                        <ul className="actions">
+                          <li><a target='_blank' href="https://truu.id/" className="button">More</a></li>
+                        </ul>
+                      </div>
                         <div className="col-4">
                             <span className="image fit"><img src={pic02} alt="" /></span>
                             <h3>MyData Scotland</h3>
-                            <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+                            <p className="text-justify">A local hub of the MyData Global network. Leading the DIDs for Kids project.</p>
                             <ul className="actions">
                                 <li><a href="#" className="button">More</a></li>
                             </ul>
@@ -74,15 +81,15 @@ class Homepage extends React.Component {
                         <div className="col-4">
                             <span className="image fit"><img src={pic03} alt="" /></span>
                             <h3>Edinburgh Napier University</h3>
-                            <p>Identity and Cryptography researchers from the blockchain and identity lab at Napier.</p>
+                            <p className="text-justify">Identity and Cryptography researchers from the blockchain and identity lab at Napier.</p>
                             <ul className="actions">
-                                <li><a href="#" className="button">More</a></li>
+                                <li><a href="https://identity-lab.blockpass.org/" className="button">More</a></li>
                             </ul>
                         </div>
                         <div className="col-4">
                             <span className="image fit"><img src={pic04} alt="" /></span>
                             <h3>Sitekit</h3>
-                            <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+                            <p className="text-justify">Sitekit empowers organisations to offer their customers secure and trusted digital services. They believe in collaboration, open standards, decentralised identity and full data ownership by the citizen, to create a global, transparent digital ecosystem. </p>
                             <ul className="actions">
                                 <li><a href="#" className="button">More</a></li>
                             </ul>
@@ -90,23 +97,16 @@ class Homepage extends React.Component {
                       <div className="col-4">
                         <span className="image fit"><img src={pic04} alt="" /></span>
                         <h3>MyData Global</h3>
-                        <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+                        <p className="text-justify">A registered non-profit association and a global network whose mission is to empower individuals by improving their right to self-determination regarding their personal data.</p>
                         <ul className="actions">
                           <li><a href="#" className="button">More</a></li>
                         </ul>
                       </div>
-                      <div className="col-4">
-                        <span className="image fit"><img src={pic04} alt="" /></span>
-                        <h3>Truu</h3>
-                        <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
-                        <ul className="actions">
-                          <li><a target='_blank' href="https://truu.id/" className="button">More</a></li>
-                        </ul>
-                      </div>
+
                       <div className="col-4">
                         <span className="image fit"><img src={pic04} alt="" /></span>
                         <h3>JLINC</h3>
-                        <p>JLINC enables people and businesses to sign automated data contracts,
+                        <p className="text-justify">JLINC enables people and businesses to sign automated data contracts,
 in seconds. This creates “data provenance,” where all parties can prove
 the chain of custody and terms for the data they share.</p>
                         <ul className="actions">

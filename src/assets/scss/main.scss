@@ -4,7 +4,7 @@
 @import "libs/skel";
 @import url('../css/font-awesome.min.css');
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic");
-
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab');
 @import "css-grid";
 /*
 	Photon by HTML5 UP
@@ -76,6 +76,7 @@
 		color: _palette(fg-bold);
 		line-height: 1em;
 		margin: 0 0 (_size(element-margin) * 0.5) 0;
+		font-family: _font(header);
 
 		a {
 			color: inherit;
@@ -183,6 +184,10 @@
 
 	.align-right {
 		text-align: right;
+	}
+
+	.text-justify {
+		text-align: justify;
 	}
 
 /* Section/Article */
