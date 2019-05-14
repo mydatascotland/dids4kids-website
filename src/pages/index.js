@@ -4,9 +4,9 @@ import Helmet from "react-helmet";
 import Layout from '../components/layout';
 
 import didsDiagram from '../assets/images/dids4kidsdiagram.png'
-import pic02 from '../assets/images/pic02.jpg'
-import pic03 from '../assets/images/pic03.jpg'
-import pic04 from '../assets/images/pic04.jpg'
+import myDataScotland from '../assets/images/MyDataScotland.png'
+import myDataGlobal from '../assets/images/mydataglobal.png'
+import truuLogo from '../assets/images/truu_symbol_blue.png'
 import SubscribeToMailingList from '../components/SubscribeToMailingList'
 
 class Homepage extends React.Component {
@@ -63,7 +63,7 @@ class Homepage extends React.Component {
                             <p className="text-justify">The project is being led by the MyData Scotland Hub, in association with MyData Global, Edinburgh Napier University, SiteKit, JLINC Labs and Truu.id. The team of individuals involved are experienced information management professionals who variously have established careers in customer management, digital identity, academia and medicine. However, the critical capability that we believe is essential to delivering a successful viability test in this area is to look from the perspective of the individual child and their parents, then overlay that with knowledge and insights from our professional lives. </p>
                         </div>
                       <div className="col-4">
-                        <span className="image fit"><img src={pic04} alt="" /></span>
+                        <span className="image fit"><img src={truuLogo} alt="" /></span>
                         <h3>Truu</h3>
                         <p className="text-justify">Building trusted digital identity for doctors modernising the way medical services verify staff identities, qualifications and certifications.</p>
                         <ul className="actions">
@@ -71,7 +71,7 @@ class Homepage extends React.Component {
                         </ul>
                       </div>
                         <div className="col-4">
-                            <span className="image fit"><img src={pic02} alt="" /></span>
+                            <span className="image fit"><img src={myDataScotland} alt="" /></span>
                             <h3>MyData Scotland</h3>
                             <p className="text-justify">A local hub of the MyData Global network. Leading the DIDs for Kids project.</p>
                             <ul className="actions">
@@ -79,7 +79,7 @@ class Homepage extends React.Component {
                             </ul>
                         </div>
                         <div className="col-4">
-                            <span className="image fit"><img src={pic03} alt="" /></span>
+                            <span className="image fit"><img src={truuLogo} alt="" /></span>
                             <h3>Edinburgh Napier University</h3>
                             <p className="text-justify">Identity and Cryptography researchers from the blockchain and identity lab at Napier.</p>
                             <ul className="actions">
@@ -87,7 +87,7 @@ class Homepage extends React.Component {
                             </ul>
                         </div>
                         <div className="col-4">
-                            <span className="image fit"><img src={pic04} alt="" /></span>
+                            <span className="image fit"><img src={truuLogo} alt="" /></span>
                             <h3>Sitekit</h3>
                             <p className="text-justify">Sitekit empowers organisations to offer their customers secure and trusted digital services. They believe in collaboration, open standards, decentralised identity and full data ownership by the citizen, to create a global, transparent digital ecosystem. </p>
                             <ul className="actions">
@@ -95,7 +95,7 @@ class Homepage extends React.Component {
                             </ul>
                         </div>
                       <div className="col-4">
-                        <span className="image fit"><img src={pic04} alt="" /></span>
+                        <span className="image fit"><img src={myDataGlobal} alt="" /></span>
                         <h3>MyData Global</h3>
                         <p className="text-justify">A registered non-profit association and a global network whose mission is to empower individuals by improving their right to self-determination regarding their personal data.</p>
                         <ul className="actions">
@@ -104,7 +104,7 @@ class Homepage extends React.Component {
                       </div>
 
                       <div className="col-4">
-                        <span className="image fit"><img src={pic04} alt="" /></span>
+                        <span className="image fit"><img src={truuLogo} alt="" /></span>
                         <h3>JLINC</h3>
                         <p className="text-justify">JLINC enables people and businesses to sign automated data contracts,
 in seconds. This creates “data provenance,” where all parties can prove
