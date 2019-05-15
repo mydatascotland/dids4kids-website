@@ -9,7 +9,7 @@ class Header extends React.Component {
                   <span className="icon major"><img style={{width: "100px"}} src={logo} alt="" /></span>
                     <h1><strong>DID's 4 Kids</strong><br />
                     A MyData Scotland project</h1>
-                    <p>Providing Decentralised Identifiers to Children</p>
+                    <p>We want to empower young people and their parents<br/> to understand and take control of their virtual and digital lives online.</p>
                     <ul className="actions">
                         <li><a href="#one" className="button scrolly">Explore</a></li>
                     </ul>
