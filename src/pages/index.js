@@ -11,7 +11,7 @@ import jlincLogo from '../assets/images/JLINClogo.png'
 import napierLogo from '../assets/images/napierLogo.jpg'
 import sitekitLogo from '../assets/images/sitekitLogo.png'
 
-import SubscribeToMailingList from '../components/SubscribeToMailingList'
+import SubscribeForm from '../components/SubscribeForm'
 
 class Homepage extends React.Component {
     render() {
@@ -126,7 +126,7 @@ the chain of custody and terms for the data they share.</p>
                         <header className="major">
                             <h2>Join our mailing list</h2>
                         </header>
-                        <SubscribeToMailingList/>
+                        <SubscribeForm/>
                     </div>
                 </section>
             </Layout>
