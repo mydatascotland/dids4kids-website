@@ -91,7 +91,7 @@ class Homepage extends React.Component {
                             </ul>
                         </div>
                         <div className="col-4">
-                            <span className="image fit"><img src={sitekitLogo} alt="" /></span>
+                            <span className="image fit"><img className="sitekit" src={sitekitLogo} alt="" /></span>
                             <h3>Sitekit</h3>
                             <p className="text-justify">Sitekit empowers organisations to offer their customers secure and trusted digital services. They believe in collaboration, open standards, decentralised identity and full data ownership by the citizen, to create a global, transparent digital ecosystem. </p>
                             <ul className="actions">

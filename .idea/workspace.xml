@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8252e13-7997-46ff-8bb9-115a84eb07c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/images/JLINClogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/napierLogo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/sitekitLogo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="b8252e13-7997-46ff-8bb9-115a84eb07c6" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -22,7 +15,7 @@
     <session id="1889239262">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.18" value="1" />
@@ -312,16 +305,15 @@
       <workItem from="1557875477237" duration="2050000" />
       <workItem from="1557925934538" duration="246000" />
       <workItem from="1558000133781" duration="266000" />
-      <workItem from="1558082416676" duration="526000" />
+      <workItem from="1558082416676" duration="616000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12468000" />
+    <option name="totallyTimeSpent" value="12558000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="134" y="35" width="2426" height="1405" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.249895" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

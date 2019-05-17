@@ -479,10 +479,10 @@
 		border-radius: _size(border-radius);
 		border: 0;
 		position: relative;
-        min-height: 200px;
-        display: flex;
-        align-items: center;
-        width: 100%;
+		min-height: 200px;
+		display: flex;
+		align-items: center;
+		width: 100%;
 
 
 
@@ -490,6 +490,11 @@
       img {
 			border-radius: _size(border-radius);
 			display: block;
+
+			&.sitekit {
+				width: 100%;
+
+			}
 		}
 
 		&.left {
