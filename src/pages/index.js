@@ -79,7 +79,7 @@ class Homepage extends React.Component {
                             <h3>MyData Scotland</h3>
                             <p className="text-justify">A local hub of the MyData Global network. Leading the DIDs for Kids project.</p>
                             <ul className="actions">
-                                <li><a href="#" className="button">More</a></li>
+                                <li><a target="_blank"  href="#" className="button">More</a></li>
                             </ul>
                         </div>
                         <div className="col-4">
@@ -87,7 +87,7 @@ class Homepage extends React.Component {
                             <h3>Edinburgh Napier University</h3>
                             <p className="text-justify">Identity and Cryptography researchers from the blockchain and identity lab at Napier.</p>
                             <ul className="actions">
-                                <li><a href="https://identity-lab.blockpass.org/" className="button">More</a></li>
+                                <li><a target="_blank"  href="https://identity-lab.blockpass.org/" className="button">More</a></li>
                             </ul>
                         </div>
                         <div className="col-4">
@@ -95,7 +95,7 @@ class Homepage extends React.Component {
                             <h3>Sitekit</h3>
                             <p className="text-justify">Sitekit empowers organisations to offer their customers secure and trusted digital services. They believe in collaboration, open standards, decentralised identity and full data ownership by the citizen, to create a global, transparent digital ecosystem. </p>
                             <ul className="actions">
-                                <li><a href="#" className="button">More</a></li>
+                                <li><a target="_blank" href="https://www.sitekit.net/" className="button">More</a></li>
                             </ul>
                         </div>
                       <div className="col-4">
@@ -103,7 +103,7 @@ class Homepage extends React.Component {
                         <h3>MyData Global</h3>
                         <p className="text-justify">A registered non-profit association and a global network whose mission is to empower individuals by improving their right to self-determination regarding their personal data.</p>
                         <ul className="actions">
-                          <li><a href="#" className="button">More</a></li>
+                          <li><a target="_blank" href="https://mydata.org" className="button">More</a></li>
                         </ul>
                       </div>
 
