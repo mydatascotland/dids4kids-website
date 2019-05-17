@@ -7,6 +7,10 @@ import didsDiagram from '../assets/images/dids4kidsdiagram.png'
 import myDataScotland from '../assets/images/MyDataScotland.png'
 import myDataGlobal from '../assets/images/mydataglobal.png'
 import truuLogo from '../assets/images/truu_symbol_blue.png'
+import jlincLogo from '../assets/images/JLINClogo.png'
+import napierLogo from '../assets/images/napierLogo.jpg'
+import sitekitLogo from '../assets/images/sitekitLogo.png'
+
 import SubscribeToMailingList from '../components/SubscribeToMailingList'
 
 class Homepage extends React.Component {
@@ -79,7 +83,7 @@ class Homepage extends React.Component {
                             </ul>
                         </div>
                         <div className="col-4">
-                            <span className="image fit"><img src={truuLogo} alt="" /></span>
+                            <span className="image fit"><img src={napierLogo} alt="" /></span>
                             <h3>Edinburgh Napier University</h3>
                             <p className="text-justify">Identity and Cryptography researchers from the blockchain and identity lab at Napier.</p>
                             <ul className="actions">
@@ -87,7 +91,7 @@ class Homepage extends React.Component {
                             </ul>
                         </div>
                         <div className="col-4">
-                            <span className="image fit"><img src={truuLogo} alt="" /></span>
+                            <span className="image fit"><img src={sitekitLogo} alt="" /></span>
                             <h3>Sitekit</h3>
                             <p className="text-justify">Sitekit empowers organisations to offer their customers secure and trusted digital services. They believe in collaboration, open standards, decentralised identity and full data ownership by the citizen, to create a global, transparent digital ecosystem. </p>
                             <ul className="actions">
@@ -104,7 +108,7 @@ class Homepage extends React.Component {
                       </div>
 
                       <div className="col-4">
-                        <span className="image fit"><img src={truuLogo} alt="" /></span>
+                        <span className="image fit"><img src={jlincLogo} alt="" /></span>
                         <h3>JLINC</h3>
                         <p className="text-justify">JLINC enables people and businesses to sign automated data contracts,
 in seconds. This creates “data provenance,” where all parties can prove
